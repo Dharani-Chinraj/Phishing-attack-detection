@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector",
+  "version": "1.0",
+  "description": "Detect if a URL is phishing or legitimate",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
